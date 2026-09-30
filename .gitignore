@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw C-MAPSS data (do not redistribute here)
+data/*.txt
+data/*.zip
+data/*.csv
+
+# Generated local outputs
+transitions_FD*.csv
+project_results.csv
+health_index_resultados.csv
+simulacao_longo_prazo.csv
+resultados_notebook.csv
