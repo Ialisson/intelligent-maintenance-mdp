@@ -1,0 +1,5 @@
+dataset,registros_treino,motores_treino,spearman_HI_RUL,variancia_PC1,top10_sensores
+FD001,20631,100,0.7713,0.7466,"s11,s4,s12,s7,s15,s21,s20,s17,s2,s3"
+FD002,53759,260,0.7825,0.5729,"s11,s4,s15,s17,s2,s3,s12,s7,s20,s21"
+FD003,24720,100,0.8365,0.6318,"s11,s13,s8,s4,s17,s3,s2,s9,s14,s10"
+FD004,61249,249,0.7742,0.5843,"s11,s4,s17,s3,s2,s8,s13,s9,s14,s6"

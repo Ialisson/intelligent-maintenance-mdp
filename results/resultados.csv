@@ -1,0 +1,13 @@
+dataset,politica,recompensa_media,falhas_por_10k,manutencoes_por_10k,disponibilidade,retorno_descontado_estado_inicial
+FD001,Baseline,9.5674,0.0,123.6,1.0,195.8831
+FD001,Value Iteration,9.6962,0.0,86.8,1.0,198.5655
+FD001,Q-Learning,9.6962,0.0,86.8,1.0,198.5655
+FD002,Baseline,9.4288,0.0,163.2,1.0,193.5133
+FD002,Value Iteration,9.5982,0.0,114.8,1.0,197.5164
+FD002,Q-Learning,9.5982,0.0,114.8,1.0,197.5164
+FD003,Baseline,9.6976,0.0,86.4,1.0,197.0167
+FD003,Value Iteration,9.531,14.2,48.8,0.9986,198.2529
+FD003,Q-Learning,9.531,14.2,48.8,0.9986,198.2529
+FD004,Baseline,9.6171,1.2,102.2,0.9999,196.2181
+FD004,Value Iteration,9.4036,18.8,57.6,0.9981,197.1098
+FD004,Q-Learning,9.4036,18.8,57.6,0.9981,197.1098
