@@ -62,6 +62,26 @@ In the FD004 long-run simulation, the baseline produced about **102.2 maintenanc
   <img src="results/figures/maintenance_comparison.png" alt="Maintenance comparison" width="760">
 </p>
 
+## Research V2: robustness and validation
+
+The original experiment has been extended with a dedicated robustness study:
+
+- **5-fold engine-level held-out validation**;
+- **4,000 engine-bootstrap transition models** (1,000 per subset);
+- **900 reward/action-effect sensitivity configurations**;
+- preprocessing **ablation study**;
+- **state-threshold sensitivity**;
+- PCA vs. an alternative Health Index construction;
+- **20 Q-Learning seeds per subset**;
+- additional rule-based baselines;
+- stress scenarios and an explicit test of the monotonic-transition assumption.
+
+Key robustness result: the Value Iteration base policy remained unchanged in **100% of the 4,000 transition bootstraps**. In held-out engines, mean HI–RUL Spearman remained approximately **0.78, 0.78, 0.84 and 0.78** for FD001–FD004.
+
+Q-Learning matched the VI policy in **100%, 100%, 85% and 75%** of the 20-seed robustness runs respectively, revealing greater learning sensitivity in FD003/FD004.
+
+See the complete analysis in [Research V2 — Robustness and Validation](docs/RESEARCH_V2.md) and the compact [robustness summary](results/research_v2/robustness_summary.csv).
+
 ## Methodology
 
 The workflow consists of:
@@ -212,6 +232,8 @@ The experiments use fixed random seeds where stochastic procedures are involved.
 - [Python implementation](src/projeto_mdp.py)
 - [Technical report — PT-BR](docs/technical_report_pt-BR.pdf)
 - [Experimental results](results/resultados.csv)
+- [Research V2 — robustness and validation](docs/RESEARCH_V2.md)
+- [Research V2 summary](results/research_v2/robustness_summary.csv)
 
 ## Author
 
